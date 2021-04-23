@@ -1,0 +1,33 @@
+$bg-color1: lightblue;
+$bg-color2: green;
+$color: #fff;
+body{
+    background-color: $bg-color1;
+
+    #container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .box{
+            background-color: $bg-color2;
+            padding: 50px;
+            text-align: center;
+
+            h1{
+                color: $color;
+            }
+            p{
+                color: $color;
+            }
+            button{
+                background-color: $bg-color1;
+                color: $color;
+                padding: 15px;
+            }
+
+        }
+    }
+}

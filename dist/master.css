@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+body #container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #container .box {
+  background-color: green;
+  padding: 50px;
+  text-align: center;
+}
+body #container .box h1 {
+  color: #fff;
+}
+body #container .box p {
+  color: #fff;
+}
+body #container .box button {
+  background-color: lightblue;
+  color: #fff;
+  padding: 15px;
+}
